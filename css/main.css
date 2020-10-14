@@ -1,0 +1,300 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --main-text-color: #757575;
+  --hero-bcg-color: #2f303a;
+  --team-bcg-color: #f5f4fa;
+  --footer-bcg: #2f303a;
+  --address-mail: rgba(255, 255, 255, 0.6);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1200;
+}
+
+.portfolio-contacts {
+  padding: 0;
+  margin: 0;
+}
+
+.contacts {
+  padding: 0;
+  margin: 0;
+}
+
+.webstudio-span {
+  color: var(--accent-color);
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+
+.webstudio-span-studio {
+  color: var(--title-text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+
+.link-portfolio {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+/*/ здесь прописываем ховеры и фокусы /*/
+.link-portfolio:hover {
+  color: var(--accent-color);
+}
+
+.link-portfolio:focus {
+  color: var(--accent-color);
+}
+
+/*/ теперь прописываю стили для телефона и мейла/*/
+.link-mail {
+  color: var(--accent-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.contacts-phone {
+  color: var(--main-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+/* just for fun😂😂😂 */
+.link-mail:hover {
+  color: red;
+}
+
+.contacts-phone:hover {
+  color: var(--title-text-color);
+}
+
+/* секции */
+.hero {
+  background-color: var(--hero-bcg-color);
+  text-align: center;
+  height: 605px;
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  padding-top: 200px;
+  margin-top: 0;
+  padding-left: 450px;
+  padding-right: 450px;
+
+  /* отсутпы */
+}
+
+.hero-link {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  margin-bottom: 200px;
+}
+
+/* features */
+.features>.list {
+  margin-top: 91px;
+}
+
+.features-title {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features p {
+  color: var(--main-text-color);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+  letter-spacing: 0.03em;
+}
+
+h2 {
+  color: var(--title-text-color);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-top: 94px;
+}
+
+.pictures {
+  margin-top: 50px;
+}
+
+.our-team {
+  background-color: var(--team-bcg-color);
+  margin-top: 94px;
+}
+
+.our-team h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+
+.our-team p {
+  color: #757575;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+.webstudio-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+address {
+  color: var(--address-mail);
+}
+
+.address-span {
+  color: var(--primary-white-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+  letter-spacing: 0.03em;
+}
+
+.address-mail {
+  color: var(--address-mail);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.main-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+address a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
