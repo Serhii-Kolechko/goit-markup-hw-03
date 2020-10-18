@@ -19,16 +19,7 @@ html {
   --address-mail: rgba(255, 255, 255, 0.6);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+
 
 .list {
   list-style: none;
@@ -36,15 +27,8 @@ p {
   margin: 0;
 }
 
-.header {
-  background-color: #ccc;
-}
-
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  outline: 2px solid tomato;
+  width: 1200;
 }
 
 .portfolio-contacts {
@@ -119,6 +103,7 @@ p {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 /* just for fun😂😂😂 */
@@ -150,10 +135,10 @@ p {
   margin-bottom: 30px;
   padding-top: 200px;
   margin-top: 0;
+  padding-left: 450px;
+  padding-right: 450px;
 
   /* отсутпы */
-  padding-left: 237px;
-  padding-right: 237px;
 }
 
 .hero-link {
@@ -165,13 +150,7 @@ p {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
-  text-decoration: none;
-  border-radius: 4px;
-
   margin-bottom: 200px;
-  padding: 10px 32px;
-  min-width: 200px;
-  height: 50px;
 }
 
 /* features */
@@ -188,8 +167,6 @@ p {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  margin-bottom: 10px;
 }
 
 .features p {
@@ -251,7 +228,7 @@ h2 {
   letter-spacing: 0.03em;
 }
 
-footer {
+.footer {
   background-color: #2f303a;
 }
 
@@ -260,7 +237,7 @@ footer {
   text-decoration: none;
 }
 
-address {
+.footer-address {
   color: var(--address-mail);
 }
 
@@ -301,7 +278,7 @@ address {
   color: #757575;
 }
 
-address a {
+.address-contacts {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
