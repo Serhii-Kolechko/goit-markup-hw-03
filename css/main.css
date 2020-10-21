@@ -1,3 +1,4 @@
+/* осановные утилиты */
 html {
   box-sizing: border-box;
 }
@@ -6,6 +7,30 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
 }
 
 :root {
@@ -20,16 +45,19 @@ html {
 }
 
 
-
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+/*/ здесь прописываем ховеры и фокусы /*/
+.link-portfolio:hover {
+  color: var(--accent-color);
 }
 
-.container {
-  width: 1200;
+.link-portfolio:focus {
+  color: var(--accent-color);
 }
+
+
+
+/* navbar */
+
 
 .portfolio-contacts {
   padding: 0;
@@ -75,14 +103,7 @@ html {
   letter-spacing: 0.02em;
 }
 
-/*/ здесь прописываем ховеры и фокусы /*/
-.link-portfolio:hover {
-  color: var(--accent-color);
-}
 
-.link-portfolio:focus {
-  color: var(--accent-color);
-}
 
 /*/ теперь прописываю стили для телефона и мейла/*/
 .link-mail {
@@ -114,12 +135,18 @@ html {
 .contacts-phone:hover {
   color: var(--title-text-color);
 }
+/* закончили с элементами навбара */
+/* начинаются  секции */
 
-/* секции */
+/* наш герой */
 .hero {
   background-color: var(--hero-bcg-color);
   text-align: center;
   height: 605px;
+  width: 1600px;
+  margin-bottom: 91px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -132,11 +159,12 @@ html {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  /* горизонтальная геометрия */
   margin-bottom: 30px;
   padding-top: 200px;
   margin-top: 0;
-  padding-left: 450px;
-  padding-right: 450px;
+  padding-left: 336px;
+  padding-right: 336px;
 
   /* отсутпы */
 }
@@ -150,13 +178,24 @@ html {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
+  text-decoration: none;
+  border-radius: 4px;
+  /* вертикальная геометрия 158пикселя */
+  display: inline-block;
+  padding: 10px 32px;
+  margin-left: 538px;
+  margin-right: 538px;
   margin-bottom: 200px;
 }
 
 /* features */
-.features>.list {
-  margin-top: 91px;
+.features{
+  margin-bottom: 94px;
 }
+/* .features .list{
+  display: flex;
+} */
+
 
 .features-title {
   color: var(--title-text-color);
@@ -167,6 +206,25 @@ html {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  /* вертикальная геометрия */
+  margin-top: 0;
+  margin-bottom: 10px;
+
+}
+
+.main-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: #757575;
+  /* вертикальная геометрия */
+  margin-top: 0;
+  margin-bottom: 0;
+
 }
 
 .features p {
@@ -180,8 +238,8 @@ html {
   /* or 171% */
   letter-spacing: 0.03em;
 }
-
-h2 {
+/* чем мы занимаемся */
+.secondary-title {
   color: var(--title-text-color);
 
   font-family: Roboto;
@@ -191,19 +249,29 @@ h2 {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 
-  margin-top: 94px;
+  
 }
 
-.pictures {
-  margin-top: 50px;
+.our-team .list{
+  display:flex;
+}
+.our-team img{
+  margin-bottom: 50px;
 }
 
 .our-team {
   background-color: var(--team-bcg-color);
-  margin-top: 94px;
+  margin-bottom: 94px;
+  
 }
 
+.our-team-secondary-title{
+  padding-top: 94px;
+  margin-bottom: 50px;
+  text-align: center;
+}
 .our-team h3 {
   font-family: Roboto;
   font-style: normal;
@@ -213,6 +281,8 @@ h2 {
   /* identical to box height */
 
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
+
 }
 
 .our-team p {
@@ -227,18 +297,30 @@ h2 {
 
   letter-spacing: 0.03em;
 }
-
+/* подвал */
 .footer {
   background-color: #2f303a;
+  width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 60px;
+  padding-left: 215px;
+  padding-bottom: 161px;
 }
 
 .webstudio-link {
   color: #ffffff;
   text-decoration: none;
+  background-color: tomato;
+  display: inline-block;
+  margin-bottom: 20px;
+  
 }
+
 
 .footer-address {
   color: var(--address-mail);
+ 
 }
 
 .address-span {
@@ -250,6 +332,9 @@ h2 {
   line-height: 1.7;
   /* or 171% */
   letter-spacing: 0.03em;
+
+  display: inline-block;
+  margin-bottom: 9px;
 }
 
 .address-mail {
@@ -264,21 +349,12 @@ h2 {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+
+  margin-bottom: 9px;
 }
 
-.main-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-  letter-spacing: 0.03em;
 
-  color: #757575;
-}
-
-.address-contacts {
+.address-contacts-mail{
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -289,4 +365,22 @@ h2 {
 
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+
+  display: inline-block;
+  margin-top: 9px;
+}
+.address-contacts-phone {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+
+  display: inline-block;
+  margin-top: 9px;
 }
