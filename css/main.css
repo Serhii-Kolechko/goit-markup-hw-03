@@ -54,7 +54,10 @@ img {
   color: var(--accent-color);
 }
 
-
+section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 /* navbar */
 
@@ -138,15 +141,22 @@ img {
 /* закончили с элементами навбара */
 /* начинаются  секции */
 
+section:not(:last-child){
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* наш герой */
 .hero {
   background-color: var(--hero-bcg-color);
   text-align: center;
-  height: 605px;
+  
   width: 1600px;
-  margin-bottom: 91px;
+  
+  /* padding-bottom: 91px;
+  padding-top:91px; */
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .hero-title {
@@ -160,11 +170,12 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   /* горизонтальная геометрия */
+  margin-top: 106px;
   margin-bottom: 30px;
-  padding-top: 200px;
-  margin-top: 0;
-  padding-left: 336px;
-  padding-right: 336px;
+  
+  padding-left: 452px;
+  padding-right: 452px;
+  
 
   /* отсутпы */
 }
@@ -183,18 +194,13 @@ img {
   /* вертикальная геометрия 158пикселя */
   display: inline-block;
   padding: 10px 32px;
-  margin-left: 538px;
-  margin-right: 538px;
-  margin-bottom: 200px;
+  margin-bottom: 106px;
+  
+  
 }
 
 /* features */
-.features{
-  margin-bottom: 94px;
-}
-/* .features .list{
-  display: flex;
-} */
+
 
 
 .features-title {
@@ -263,7 +269,6 @@ img {
 
 .our-team {
   background-color: var(--team-bcg-color);
-  margin-bottom: 94px;
   
 }
 
@@ -296,6 +301,7 @@ img {
   /* identical to box height */
 
   letter-spacing: 0.03em;
+  
 }
 /* подвал */
 .footer {
