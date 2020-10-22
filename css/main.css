@@ -311,16 +311,9 @@ img {
 .webstudio-link {
   color: #ffffff;
   text-decoration: none;
-  background-color: tomato;
   display: inline-block;
   margin-bottom: 20px;
   
-}
-
-
-.footer-address {
-  color: var(--address-mail);
- 
 }
 
 .address-span {
@@ -335,6 +328,7 @@ img {
 
   display: inline-block;
   margin-bottom: 9px;
+ 
 }
 
 .address-mail {
@@ -349,8 +343,6 @@ img {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
-
-  margin-bottom: 9px;
 }
 
 
@@ -365,9 +357,10 @@ img {
 
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-
-  display: inline-block;
-  margin-top: 9px;
+  margin-bottom: 9px;
+  display: block;
+  
+  
 }
 .address-contacts-phone {
   font-family: Roboto;
@@ -381,6 +374,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 
-  display: inline-block;
-  margin-top: 9px;
+  display: block;
+  
+  
 }
