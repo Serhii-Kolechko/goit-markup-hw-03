@@ -241,7 +241,7 @@ section:not(:last-child){
   width: calc((100%-90px)/4);
   background-color: tomato;
   margin-right: 30px;
-  margin-top: 10px;
+  
 }
 .features-item:nth-child(4n){
   margin-right: 0;
