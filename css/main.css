@@ -14,6 +14,7 @@ h3,
 p {
   margin-top: 0;
 }
+
 img {
   display: inline-block;
   max-width: 100%;
@@ -62,11 +63,29 @@ section{
 /* navbar */
 
 
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
+.webstudio{
+  margin-right: 93px;
+}
 .portfolio-contacts {
   padding: 0;
   margin: 0;
+  display: flex;
 }
 
+  /* .portfolio-contacts .item{
+    margin-right: 50px;
+  }
+  .portfolio-contacts .item:last-child{
+    margin-right: 0;
+  } */
+.portfolio-contacts .item:not(:last-child){
+  margin-right: 50px;
+}
 .contacts {
   padding: 0;
   margin: 0;
@@ -96,6 +115,10 @@ section{
 }
 
 .link-portfolio {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+   
   color: var(--title-text-color);
   text-decoration: none;
   font-family: Roboto;
@@ -104,10 +127,17 @@ section{
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+ 
 }
 
 
-
+.contacts{
+  display: flex;
+  margin-left: auto;
+}
+.contacts .item +.item{
+  margin-left: 50px;
+}
 /*/ теперь прописываю стили для телефона и мейла/*/
 .link-mail {
   color: var(--accent-color);
@@ -200,8 +230,20 @@ section:not(:last-child){
 }
 
 /* features */
+.features{
+  display: flex;
+  flex-wrap: wrap;
+}
 
-
+.features-item{
+  width: 270px;
+  background-color: tomato;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+.features-item:nth-child(4n){
+  margin-right: 0;
+}
 
 .features-title {
   color: var(--title-text-color);
