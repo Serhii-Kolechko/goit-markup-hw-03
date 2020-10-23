@@ -28,9 +28,11 @@ img {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
   outline: 2px solid tomato;
 }
 
@@ -236,7 +238,7 @@ section:not(:last-child){
 }
 
 .features-item{
-  width: 270px;
+  width: calc((100%-90px)/4);
   background-color: tomato;
   margin-right: 30px;
   margin-top: 10px;
