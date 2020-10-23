@@ -303,12 +303,23 @@ section:not(:last-child){
 
   
 }
+.pictures{
+  display: flex;
+}
+.pictures-item{
+  width: calc((100%-60)/3);
+  margin-right: 30px;
+}
 
 .our-team .list{
   display:flex;
 }
+.team-item{
+  width: calc((100-90)/3);
+  margin-right: 30px;
+}
 .our-team img{
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .our-team {
@@ -345,6 +356,7 @@ section:not(:last-child){
   /* identical to box height */
 
   letter-spacing: 0.03em;
+  margin-bottom: 30px;
   
 }
 /* подвал */
