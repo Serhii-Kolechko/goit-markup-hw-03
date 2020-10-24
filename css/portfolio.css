@@ -16,7 +16,7 @@ html {
   }
   
   img {
-    display: inline-block;
+    display: block;
     max-width: 100%;
     height: auto;
   }
@@ -33,7 +33,7 @@ html {
     margin-right: auto;
     padding-right: 15px;
     padding-left: 15px;
-    outline: 2px solid tomato;
+    
   }
   
   :root {
@@ -159,13 +159,13 @@ html {
     padding-top: 94px;
     padding-bottom: 94px;
   }
-  /* наш герой */
+ 
 
-  .link-portfolio-features:hover {
+  .link-portfolio:hover {
     color: var(--accent-color);
   }
   
-  .link-portfolio-features:focus {
+  .link-portfolio:focus {
     color: var(--accent-color);
   }
   
@@ -209,20 +209,54 @@ html {
     
   }
 
+  .portfolio-buttons{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 16px;
+      margin-top: 94px;
+  }
+
+  .button-item{
+      margin-right: 8px;
+  }
+
+  .button-items{
+
+    padding: 6px 22px;
+    min-width: 73px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+    
+  }
+
+  .button-items:hover{
+      background-color: #2196F3;
+  }
   /* картинки */
-.test-container{
+.card-container{
     width: 1230px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid tomato;
+    
 }
 
 .flex-container{
     display: flex;
-    flex-wrap: nowrap;
-    background-color: teal;
+    flex-wrap: wrap;
+   
 }
 /* .pictures-portfolio-item{
     display: flex;
@@ -230,21 +264,52 @@ html {
 
     width: calc((100%-60px)/3);
 } */
-.flex-element{
-    width: 380px;
-    background-color: tomato;
+.card{
+    
+    width: calc((100%-60px)/3);
+    
     margin-right: 30px;
     margin-bottom: 30px;
 }
 
-.flex-element:nth-last-child(-n+3){
+.card:nth-last-child(-n+3){
     margin-bottom: 0;
+} 
+
+
+
+.card{
+    width: 370px;
+    overflow: hidden;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+   
+}
+.card-image{
+    display: block;
+   
+}
+.card-content{
+   
+    background: #FFFFFF;
+    box-sizing: border-box;
+   
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
 }
 
 /* подвал */
 .footer {
     background-color: #2f303a;
     width: 1600px;
+    height: 252px;
     margin-right: auto;
     margin-left: auto;
     padding-top: 60px;

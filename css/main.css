@@ -183,6 +183,7 @@ section:not(:last-child){
   text-align: center;
   
   width: 1600px;
+  height: 600px;
   
   /* padding-bottom: 91px;
   padding-top:91px; */
@@ -440,51 +441,3 @@ section:not(:last-child){
   
   
 }
-
-/* портфолио */
-
-.portfolio-features{
-  display: flex;
-  align-items: center;
-  
-  
-}
-
-
-.link-portfolio-features{
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-   
-  color: var(--title-text-color);
-  text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  background: #F5F4FA;
-  border-radius: 4px;
-  
-  
-
-}
-
-.link-portfolio-features:hover {
-  color: var(--accent-color);
-}
-
-.link-portfolio-features:focus {
-  color: var(--accent-color);
-}
-
-
-.item-portfolio-features .link-portfolio-features  {
-  margin-right: 8px;
-  
-}
-.portfolio-features .item-portfolio-features:last-child{
-  margin-right: 0;
-} 
-
