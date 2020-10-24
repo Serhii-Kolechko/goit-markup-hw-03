@@ -33,7 +33,7 @@ img {
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
-  
+  outline: 2px solid tomato;
 }
 
 :root {
@@ -239,11 +239,17 @@ section:not(:last-child){
 .flex-element{
   width: 270px;
   height: 75px;
+  margin-bottom: 94px;
   
 }
 
-
-
+.features-pictures{
+  margin-right: 30px;
+  
+}
+.features-pictures:nth-last-child(){
+  margin-right: 0;
+}
 .features-title {
   color: var(--title-text-color);
   font-family: Roboto;
@@ -360,6 +366,7 @@ section:not(:last-child){
 .footer {
   background-color: #2f303a;
   width: 1600px;
+  height: 252px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 60px;
