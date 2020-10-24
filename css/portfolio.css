@@ -1,0 +1,322 @@
+/* осановные утилиты */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  h1,
+  h2,
+  h3,
+  p {
+    margin-top: 0;
+  }
+  
+  img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    outline: 2px solid tomato;
+  }
+  
+  :root {
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+    --primary-white-color: #ffffff;
+    --main-text-color: #757575;
+    --hero-bcg-color: #2f303a;
+    --team-bcg-color: #f5f4fa;
+    --footer-bcg: #2f303a;
+    --address-mail: rgba(255, 255, 255, 0.6);
+  }
+
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+  }
+  .webstudio{
+    margin-right: 93px;
+  }
+  .portfolio-contacts {
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+    /* .portfolio-contacts .item{
+      margin-right: 50px;
+    }
+    .portfolio-contacts .item:last-child{
+      margin-right: 0;
+    } */
+  .portfolio-contacts .item:not(:last-child){
+    margin-right: 50px;
+  }
+  .contacts {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .webstudio-span {
+    color: var(--accent-color);
+  
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+  }
+  
+  .webstudio-span-studio {
+    color: var(--title-text-color);
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+  }
+  
+  .link-portfolio {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+     
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+   
+  }
+  
+  
+  .contacts{
+    display: flex;
+    margin-left: auto;
+  }
+  .contacts .item +.item{
+    margin-left: 50px;
+  }
+  /*/ теперь прописываю стили для телефона и мейла/*/
+  .link-mail {
+    color: var(--accent-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+  
+  .contacts-phone {
+    color: var(--main-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+  
+  /* just for fun😂😂😂 */
+  .link-mail:hover {
+    color: red;
+  }
+  
+  .contacts-phone:hover {
+    color: var(--title-text-color);
+  }
+  /* закончили с элементами навбара */
+  /* начинаются  секции */
+  
+  section:not(:last-child){
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  /* наш герой */
+
+  .link-portfolio-features:hover {
+    color: var(--accent-color);
+  }
+  
+  .link-portfolio-features:focus {
+    color: var(--accent-color);
+  }
+  
+  
+  .item-portfolio-features .link-portfolio-features  {
+    margin-right: 8px;
+    
+  }
+  .portfolio-features .item-portfolio-features:last-child{
+    margin-right: 0;
+  } 
+
+  .portfolio-features{
+    display: flex;
+    align-items: center;
+    
+    
+  }
+  .link-portfolio-features{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+     
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    min-width: 84px;
+    min-height: 26px;
+
+    
+    
+  }
+  .item-portfolio-features{
+    background: #F5F4FA;
+    border-radius: 4px;
+    
+  }
+
+  /* картинки */
+.test-container{
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: teal;
+}
+/* .pictures-portfolio-item{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: calc((100%-60px)/3);
+} */
+.flex-element{
+    width: 380px;
+    background-color: tomato;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.flex-element:nth-last-child(-n+3){
+    margin-bottom: 0;
+}
+
+/* подвал */
+.footer {
+    background-color: #2f303a;
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 60px;
+    padding-left: 215px;
+    padding-bottom: 161px;
+  }
+  
+  .webstudio-link {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+  }
+  
+  .address-span {
+    color: var(--primary-white-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    /* or 171% */
+    letter-spacing: 0.03em;
+  
+    display: inline-block;
+    margin-bottom: 9px;
+   
+  }
+  
+  .address-mail {
+    color: var(--address-mail);
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    /* or 171% */
+    letter-spacing: 0.03em;
+  
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  
+  .address-contacts-mail{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+  
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    margin-bottom: 9px;
+    display: block;
+     
+  }
+  .address-contacts-phone {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+  
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+  
+    display: block;
+     
+  }
