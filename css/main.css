@@ -28,12 +28,12 @@ img {
 }
 
 .container {
-  width: 1200px;
+  width: 1230px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
-  outline: 2px solid tomato;
+  
 }
 
 :root {
@@ -208,9 +208,7 @@ section:not(:last-child){
   
   padding-left: 452px;
   padding-right: 452px;
-  
 
-  /* отсутпы */
 }
 
 .hero-link {
@@ -231,22 +229,20 @@ section:not(:last-child){
   
   
 }
-
-/* features */
-.features{
-  display: flex;
+/* ******************************************** */
+/* FEATURES */
+.flex-container{
+  
   flex-wrap: wrap;
+  display: flex;
 }
-
-.features-item{
-  width: calc((100%-90px)/4);
-  background-color: tomato;
-  margin-right: 30px;
+.flex-element{
+  width: 270px;
+  height: 75px;
   
 }
-.features-item:nth-child(4n){
-  margin-right: 0;
-}
+
+
 
 .features-title {
   color: var(--title-text-color);
