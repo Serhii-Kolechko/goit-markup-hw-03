@@ -235,11 +235,13 @@ section:not(:last-child){
   
   flex-wrap: wrap;
   display: flex;
+  
 }
 .flex-element{
   width: 270px;
   height: 75px;
   margin-bottom: 94px;
+  
   
 }
 
@@ -372,6 +374,13 @@ section:not(:last-child){
   padding-top: 60px;
   padding-left: 215px;
   padding-bottom: 161px;
+}
+.container-no-padding{
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  outline: 2px solid tomato;
 }
 
 .webstudio-link {
