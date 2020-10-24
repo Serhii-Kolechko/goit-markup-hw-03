@@ -328,7 +328,11 @@ section:not(:last-child){
 }
 
 .our-team {
+  width: 1600px;
   background-color: var(--team-bcg-color);
+  margin-left: auto;
+  margin-right: auto;
+  
   
 }
 
@@ -382,7 +386,9 @@ section:not(:last-child){
   
   outline: 2px solid tomato;
 }
-
+.footer-no-padding{
+  padding-bottom: 0;
+}
 .webstudio-link {
   color: #ffffff;
   text-decoration: none;
