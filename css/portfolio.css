@@ -98,6 +98,16 @@ html {
     letter-spacing: 0.03em;
   }
   
+  .footer-webstudio-span-studio{
+    color: var(--primary-white-color);
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+  }
   .link-portfolio {
     display: block;
     padding-top: 32px;

@@ -92,7 +92,9 @@ section{
   padding: 0;
   margin: 0;
 }
-
+.footer-webstudio-link{
+  text-decoration: none;
+}
 .webstudio-span {
   color: var(--accent-color);
 
@@ -114,6 +116,19 @@ section{
   line-height: 1.2;
   /* identical to box height */
   letter-spacing: 0.03em;
+  
+}
+.footer-webstudio-span-studio{
+  color: var(--primary-white-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  
+  
 }
 
 .link-portfolio {
@@ -180,16 +195,15 @@ section:not(:last-child){
 /* наш герой */
 .hero {
   background-color: var(--hero-bcg-color);
-  text-align: center;
   
-  width: 1600px;
-  height: 600px;
+  
+  
   
   /* padding-bottom: 91px;
   padding-top:91px; */
-  margin-left: auto;
-  margin-right: auto;
+ 
   text-align: center;
+ 
 }
 
 .hero-title {
@@ -205,9 +219,8 @@ section:not(:last-child){
   /* горизонтальная геометрия */
   margin-top: 106px;
   margin-bottom: 30px;
-  
-  padding-left: 452px;
-  padding-right: 452px;
+  padding-right: 282px;
+  padding-left: 282px;  
 
 }
 
@@ -235,6 +248,7 @@ section:not(:last-child){
   
   flex-wrap: wrap;
   display: flex;
+  
   
 }
 .flex-element{
@@ -401,6 +415,7 @@ section:not(:last-child){
 }
 .footer-no-padding{
   padding-bottom: 0;
+  padding-top: 0;
 }
 .webstudio-link {
   color: #ffffff;
