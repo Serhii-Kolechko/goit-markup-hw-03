@@ -219,8 +219,8 @@ section:not(:last-child){
   /* горизонтальная геометрия */
   margin-top: 106px;
   margin-bottom: 30px;
-  padding-right: 282px;
-  padding-left: 282px;  
+  padding-right: 400px;
+  padding-left: 400px;  
 
 }
 
