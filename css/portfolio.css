@@ -55,6 +55,7 @@ html {
     align-items: center;
     justify-content: center;
     height: 80px;
+    border-bottom: 1px solid #ECECEC;
   }
   .webstudio{
     margin-right: 93px;
@@ -146,6 +147,10 @@ html {
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+  .link-mail:hover{
+    color: var(--accent-color);
   }
   
   .contacts-phone {
@@ -159,10 +164,7 @@ html {
     text-decoration: none;
   }
   
-  /* just for fun😂😂😂 */
-  .link-mail:hover {
-    color: red;
-  }
+  
   
   .contacts-phone:hover {
     color: var(--title-text-color);
@@ -360,18 +362,23 @@ html {
 
   .button-items-all:hover{
       background-color: #2196F3;
+      color: white;
   }
   .button-items-website:hover{
     background-color: #2196F3;
+    color: white;
   }
   .button-items-apps:hover{
     background-color: #2196F3;
+    color: white;
   }
   .button-items-design:hover{
     background-color: #2196F3;
+    color: white;
   }
   .button-items-marketing:hover{
     background-color: #2196F3;
+    color: white;
 }
   /* картинки */
 .card-container{
