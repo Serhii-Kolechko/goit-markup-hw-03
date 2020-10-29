@@ -35,7 +35,7 @@ html {
     margin-right: auto;
     padding-right: 15px;
     padding-left: 15px;
-    outline: 2px solid tomato;
+    
     
   }
   
@@ -53,7 +53,8 @@ html {
   .navbar{
     display: flex;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
+    height: 80px;
   }
   .webstudio{
     margin-right: 93px;
@@ -62,6 +63,7 @@ html {
     padding: 0;
     margin: 0;
     display: flex;
+    
   }
   
     /* .portfolio-contacts .item{
@@ -225,7 +227,7 @@ html {
   .portfolio-buttons{
       display: flex;
       justify-content: center;
-      margin-bottom: 16px;
+      margin-bottom: 50px;
       margin-top: 94px;
   }
 
@@ -240,6 +242,7 @@ html {
     border-radius: 4px;
     border: transparent;
     background-color: #F5F4FA;
+    height: 38px;
     
     font-family: Roboto;
     font-style: normal;
@@ -253,10 +256,123 @@ html {
     color: #212121;
     
   }
+  .button-items-website{
+    width: 128px;
+    padding: 6px 22px;
+    min-width: 73px;
+    border-radius: 4px;
+    border: transparent;
+    background-color: #F5F4FA;
+    height: 38px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+  }
+  .button-items-all{
+    width: 73px;
+    padding: 6px 22px;
+    min-width: 73px;
+    border-radius: 4px;
+    border: transparent;
+    background-color: #F5F4FA;
+    height: 38px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+  }
+  .button-items-apps{
+    width: 145px;
+    padding: 6px 22px;
+    min-width: 73px;
+    border-radius: 4px;
+    border: transparent;
+    background-color: #F5F4FA;
+    height: 38px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+  }
+  .button-items-disign{
+    width: 103px;
+    padding: 6px 22px;
+    min-width: 73px;
+    border-radius: 4px;
+    border: transparent;
+    background-color: #F5F4FA;
+    height: 38px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+  }
+  .button-items-marketing{
+    width: 130px;
+    padding: 6px 22px;
+    min-width: 73px;
+    border-radius: 4px;
+    border: transparent;
+    background-color: #F5F4FA;
+    height: 38px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+  }
 
-  .button-items:hover{
+
+  .button-items-all:hover{
       background-color: #2196F3;
   }
+  .button-items-website:hover{
+    background-color: #2196F3;
+  }
+  .button-items-apps:hover{
+    background-color: #2196F3;
+  }
+  .button-items-design:hover{
+    background-color: #2196F3;
+  }
+  .button-items-marketing:hover{
+    background-color: #2196F3;
+}
   /* картинки */
 .card-container{
     width: 1230px;
@@ -264,7 +380,8 @@ html {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid tomato;
+    
+    margin-bottom: 94px;
     
 }
 
@@ -285,6 +402,7 @@ html {
 .card{
     
     width: 370px;
+    height: 404px;
     
     margin-right: 30px;
     margin-bottom: 30px;
@@ -305,7 +423,7 @@ html {
 
 .card-image{
     display: block;
-   
+
 }
 .card-content{
    
@@ -330,6 +448,7 @@ html {
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: #212121;
+  margin-bottom: 4px;
 
 }
 .card-text{
@@ -345,14 +464,17 @@ html {
 }
 
 /* подвал */
+.footer-section{
+  background-color: #2f303a;
+}
 .footer {
-    background-color: #2f303a;
-    width: 1600px;
+    
+    width: 1230px;
     height: 252px;
     margin-right: auto;
     margin-left: auto;
     padding-top: 60px;
-    padding-left: 215px;
+   
     padding-bottom: 161px;
   }
   
