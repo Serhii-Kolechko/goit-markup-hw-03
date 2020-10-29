@@ -167,7 +167,7 @@ html {
   
   
   .contacts-phone:hover {
-    color: var(--title-text-color);
+    color: var(--accent-color);
   }
   /* закончили с элементами навбара */
   /* начинаются  секции */
@@ -437,7 +437,7 @@ html {
     background: #FFFFFF;
     box-sizing: border-box;
    
-    border: 1px solid #EEEEEE;
+    
 
     padding-left: 24px;
     padding-right: 24px;
