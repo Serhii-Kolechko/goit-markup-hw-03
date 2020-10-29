@@ -386,6 +386,7 @@ margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 94px;
+  padding-bottom: 94px;
   
   
 }
@@ -412,6 +413,7 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #212121;
+padding-top: 94px;
 
 }
 
@@ -488,6 +490,8 @@ border-radius: 0px 0px 4px 4px;
 /* подвал */
 .footer-section{
   background-color: #2f303a;
+  height: 252px;
+  
 }
 .footer {
     
