@@ -140,7 +140,7 @@ html {
   }
   /*/ теперь прописываю стили для телефона и мейла/*/
   .link-mail {
-    color: var(--accent-color);
+    color: var(--main-text-color);
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
