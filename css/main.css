@@ -158,13 +158,17 @@ img {
 }
 /*/ теперь прописываю стили для телефона и мейла/*/
 .link-mail {
-  color: var(--accent-color);
+  color: var(--main-text-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.link-mail:hover{
+  color: var(--accent-color);
 }
 
 .contacts-phone {
@@ -178,10 +182,7 @@ img {
   text-decoration: none;
 }
 
-/* just for fun😂😂😂 */
-.link-mail:hover {
-  color: red;
-}
+
 
 .contacts-phone:hover {
   color: var(--title-text-color);
